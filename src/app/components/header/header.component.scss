@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c2833;
+    padding-left: 50px;
+    height: 55px;
+}
+
+.user-actions {
+    display: flex;
+    padding-right: 30px;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #039be5;
+}

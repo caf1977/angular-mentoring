@@ -1,1 +1,7 @@
-<p>header works!</p>
+<header class="header">
+    <app-logo></app-logo>
+    <div class="user-actions">
+        <button data-agmp="login" (click)="onUserLogin()">User login</button>
+        <button data-agmp="logout" (click)="onUserLogout()">Log out</button>
+    </div>
+</header>

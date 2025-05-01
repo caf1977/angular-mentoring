@@ -1,0 +1,27 @@
+.course-list-container {
+    background-color: #e5e7e9;
+    padding: 20px 0 0 50px;
+    height: 100%;
+    margin: 10px 0 20px 0;
+}
+
+.load-more-container {
+    width: 91%;
+    background-color: white;
+    padding: 10px 15px;
+    margin: 20px 0px 20px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.load-more-button {
+    background-color: transparent;
+    border: none;
+    color:  #0066FF;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.load-more-button:hover {
+    color: #005aa7;
+}

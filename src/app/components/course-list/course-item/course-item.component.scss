@@ -1,0 +1,54 @@
+.course-item-container {
+    display: flex;
+    width: 91%;
+    background-color: white;
+    padding: 15px 15px;
+    margin: 20px 0px 20px 0;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.item .header {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    gap: 20px;
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.actions button {
+    background-color: #039be5;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 5px 13px;
+    cursor: pointer;
+}
+
+.actions button:hover {
+    background-color: #005aa7;
+}
+
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}

@@ -1,0 +1,16 @@
+<div class="course-item-container">
+    <div class="item">
+        <h3 data-agmp="course-title">{{ course.title}}</h3>
+        <div class="header">
+            <p>{{ course.duration }} min</p>
+            <p>{{ course.creationDate | date: 'MM/dd/yyyy' }}</p>
+        </div>
+    </div>
+    <div class="body">
+        <p>{{ course.description }}</p>
+        <div class="actions">
+            <button data-agmp="edit-course-button" (click)="handleEditClick()">Edit</button>
+            <button data-agmp="delete-course-button" (click)="handleDeleteClick()">Delete</button>
+        </div>
+    </div>
+</div>

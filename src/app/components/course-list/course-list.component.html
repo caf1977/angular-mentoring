@@ -1,1 +1,13 @@
-<p>course-list works!</p>
+<div class="course-list-container">
+    <app-search (search)="onSearch($event)"></app-search>
+    <app-course-item 
+        *ngFor="let course of courses; trackBy: trackByCourseId"
+        [course]="course" 
+        (editItemEvent)="onEditClick($event)"
+        (deleteItemEvent)="onDeleteClick($event)"
+    >
+    </app-course-item>
+    <div class="load-more-container">
+        <button class="load-more-button" data-agmp="load-more-button" (click)="onLoadMore()">Load more</button> 
+    </div>
+</div>
